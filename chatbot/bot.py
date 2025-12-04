@@ -32,7 +32,7 @@ GROQ_KEY= os.getenv("GROQ_API_KEY")
 
 #Chatbot testing, runs in this file directly.Runs a continuous chat loop in the terminal.
 def chat_loop():
-    bot = Chatbot(api_key=os.environ["GROQ_KEY"])
+    bot = Chatbot(api_key=os.environ["GROQ_API_KEY"])
     print("Chatbot ready! Type 'exit' to quit.\n")
 
     while True:

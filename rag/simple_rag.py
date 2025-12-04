@@ -1,5 +1,3 @@
-# rag/agent.py
-
 from .loader import load_pdf
 from .embeddings import Embedder
 from chatbot.bot import Chatbot
@@ -26,13 +24,6 @@ class SimpleRAG:
 
     # Answering user questions
     def answer(self, question: str):
-        """
-        Simple RAG logic without conversation memory.
-        1. Compute embedding for query.
-        2. Compute cosine similarity with CV.
-        3. If irrelevant → return 'I don't know.'
-        4. Build prompt using only CV content (no history).
-        """
         # Embed question
         question_vec = self.embedder.embed([question])[0]
 

@@ -9,5 +9,4 @@ class Embedder:
 
     def embed(self, texts: List[str]) -> np.ndarray:
         embeddings = self.model.encode(texts, convert_to_numpy=True, show_progress_bar=False)
-        # ensure float32 for faiss compatibility
         return np.array(embeddings, dtype="float32")
