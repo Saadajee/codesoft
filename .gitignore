@@ -1,0 +1,24 @@
+# Python cache + build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Byte-compiled
+*.py[cod]
+
+# C extensions
+*.so
+
+# Build and distribution folders
+build/
+dist/
+*.egg-info/
+
+# Environment
+.env
+
+# Logs
+*.log
+
