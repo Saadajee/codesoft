@@ -8,9 +8,6 @@ class Embedder:
         self.model = SentenceTransformer(model_name)
 
     def embed(self, texts: List[str]) -> np.ndarray:
-        """
-        Returns a float32 numpy array of shape (len(texts), dim)
-        """
         embeddings = self.model.encode(texts, convert_to_numpy=True, show_progress_bar=False)
         # ensure float32 for faiss compatibility
         return np.array(embeddings, dtype="float32")

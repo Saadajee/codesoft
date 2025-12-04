@@ -15,7 +15,7 @@ class ContextAwareRAG:
         self.chat_history = []
         
         #similarity threshold
-        self.threshold = 0.05
+        self.threshold = 0.1
         
         #Pdf ingestion
     def ingest_pdf(self, path: str):

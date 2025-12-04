@@ -15,7 +15,7 @@ class SimpleRAG:
         self.cv_vector = None
 
         # similarity cutoff
-        self.threshold = 0.05
+        self.threshold = 0.1
 
     # PDF ingestion
     def ingest_pdf(self, path: str):
