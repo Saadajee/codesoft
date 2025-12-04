@@ -3,7 +3,6 @@
 A **Retrieval-Augmented Generation (RAG)** chatbot API that answers questions based on a candidate’s CV.  
 Built with **FastAPI**, **Groq API** for embeddings and completions, and Docker for deployment.  
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ Built with **FastAPI**, **Groq API** for embeddings and completions, and Docker 
 - Simple API endpoints for integration.
 - Fully containerized with **Docker**.
 
----
 
 ## Libraries involved
 
@@ -22,7 +20,5 @@ Built with **FastAPI**, **Groq API** for embeddings and completions, and Docker 
 - **Environment:** Docker, python-dotenv
 - **Other:** Numpy, Requests
 
----
 
-## Folder Structure
 
