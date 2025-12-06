@@ -5,3 +5,4 @@ PyPDF2
 numpy
 requests
 groq
+sentence-transformers
